@@ -3,4 +3,5 @@ from surya import views
 urlpatterns = [
     
     path('home/',views.register),
+    path('link/',views.home)
 ]
